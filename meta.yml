@@ -1,0 +1,24 @@
+author:
+  - Галиев Илья
+include-before: \begin{center}Ивановский государственный университет\linebreak ИМИТиЕН, 3 курс\linebreak\linebreak 2021\end{center}\clearpage
+# ИМИТиЕН - Институт математики, информационных технологий и естественных наук
+
+toc-title: Содержание
+toc: true
+
+mainfont: Times New Roman
+monofont: Courier New
+monofontoptions: 'Scale=0.8'
+documentclass: extarticle
+# tab-stop: 2 # not work, set as cli param in build.sh
+fontsize: 14pt
+
+geometry:
+  - top=30mm
+  - heightrounded
+papersize: a4
+
+# code wrap
+header-includes:
+ - \usepackage{fvextra}
+ - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}

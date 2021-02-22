@@ -1,0 +1,33 @@
+h1, h2, h3, span {
+	color: #006459;
+	font-family: sans-serif;
+}
+
+#sec_ab {
+	color: #9F5858;
+	font-family: serif;
+	text-decoration: underline;
+}
+
+#th_ab {
+	color: #3CBE44;
+	font-family: monospace;
+	text-decoration: blink;
+}
+
+.just-color {
+	background-color: #8DC820;
+}
+
+.add-img {
+	/*background-image: url(doge.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;*/
+	background: fixed url(doge.jpg) right top no-repeat;
+}
+
+.ahaha-copyleft {
+	display: inline-block;
+	transform: scale(-1,1);
+}

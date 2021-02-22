@@ -1,0 +1,108 @@
+h1, h2, h3, span {
+	color: #006459;
+	font-family: sans-serif;
+}
+
+#sec_ab {
+	color: #9F5858;
+	font-family: serif;
+	text-decoration: underline;
+}
+
+#th_ab {
+	color: #3CBE44;
+	font-family: monospace;
+	text-decoration: blink;
+}
+
+.just-color {
+	background-color: #A08888;
+}
+
+.add-img {
+	/*background-image: url(doge.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;*/
+	background: fixed url(doge.jpg) right top no-repeat;
+}
+
+.lvl1 {
+	font: 1em sans-serif;
+	color: #6F003B;
+}
+
+.lvl2 {
+	font: 2em monospace;
+	color: #002092;
+}
+
+.my_img {
+	list-style-image: url(me.jpg);
+}
+
+a {
+	text-decoration: line-through;
+}
+
+a:visited {
+	color: #0079B9;
+}
+
+a:hover {
+	text-decoration: underline;
+	filter: hue-rotate(180deg);
+}
+
+a:active {
+	display: inline-block;
+	filter: hue-rotate(20deg);
+	transform: scaleY(0.9);
+}
+
+.ahaha-copyleft {
+	display: inline-block;
+	transform: scale(-1,1);
+}
+
+.spoiler {
+	display: none;
+}
+
+div.inline {
+	display: inline;
+}
+
+div:hover > .spoiler {
+	display: inline;
+	color: #000;
+}
+
+td {
+	text-align: center;
+	vertical-align: top;
+	padding: 1em;
+}
+
+p:first-letter {
+	font-size: 1.2em;
+	border: double;
+	padding: 3px;
+}
+
+p:first-child {
+	/* NOT WORK. Maybe bc many style applyed */
+	cursor: pointer;
+}
+
+p:first-line {
+	text-decoration: underline;
+}
+
+h1:first-child > a:before {
+	content: "студент III курса, "
+}
+
+h1:first-child > a:after {
+	content: ", проживающий по адресу \"г. Иваново\""
+}

@@ -1,0 +1,18 @@
+.just-color {
+	background-color: #fff;
+}
+
+table {
+	font-style: italic;
+}
+
+table > thead {
+	font-family: sans-serif;
+	font-style: normal;
+	color: darkblue;
+	background-color: #E9E9E9;
+}
+
+table td {
+	padding: 1.3em;
+}
