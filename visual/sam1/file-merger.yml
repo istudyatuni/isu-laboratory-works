@@ -1,0 +1,9 @@
+files:
+  - text: "\\clearpage\n# *Приложение 1*\n"
+  - lab1.svg
+  - text: "# *Приложение 2*\n"
+  - lab2.svg
+
+code_in_md: true
+folder: visual/sam1
+output: attachment.md

@@ -1,5 +1,5 @@
 files:
-  - text: "\\clearpage# *Приложение 1*\n"
+  - text: "\\clearpage\n# *Приложение 1*\n"
   - lab1/index.html
   - lab1/index2.html
   - text: "# *Приложение 2*\n"

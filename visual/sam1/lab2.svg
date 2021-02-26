@@ -1,0 +1,18 @@
+<svg version="1.1" baseProfile="full" width="520" height="450" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 380" style="background-color:white">
+<g style="stroke:black; stroke-width:3">
+	<title>Headphones</title>
+	<path d="M -35 65 l 0 30 a50,45 0 1,0 0,100" />
+	<path d="M 185 65 l 0 30 a50,45 0 0,1 0,100" />
+	<path d="M-35 70 a50,25 0 0,1 220,0" style="fill:none" />
+</g>
+<g style="fill:none; stroke:black; stroke-width:1">
+	<title>Face</title>
+	<path d="M 4,70 l 150,0 0,150 -150,0 0,-150" />
+	<text x="30" y="160" style="fill:black; font-size:2em; font-family:sans-serif">Face</text>
+</g>
+<g style="fill:none; stroke:black; stroke-width:3">
+	<title>Capture</title>
+	<path d="M -30,260 q 3,-17 20,-10 M -30,260 l 0,-25 20,15 m -13,-1 l 20,37" />
+	<text x="-50" y="310" style="fill:black; font-size:1em; font-family:sans-serif; stroke-width:0.1">This is headphones</text>
+</g>
+</svg>
