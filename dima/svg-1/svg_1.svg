@@ -1,0 +1,20 @@
+<svg version="1.1" baseProfile="full" width="1200" height="600" xmlns="http://www.w3.org/2000/svg" >
+
+	<polygon points="40, 40, 860, 40, 860, 520, 40, 520" fill="lightpink" stroke="black" stroke-width="4"/>
+
+	<ellipse cx="450" cy="370" rx="225" ry="55" fill="yellow" stroke="gray" stroke-width="4"/>
+	<rect x="400" y="355" width="100" height="30" rx="10" ry="10" fill="orange"/>
+	<circle cx="450" cy="370" r="25" fill="black" stroke="black" stroke-width="2"></circle>
+
+	<circle cx="150" cy="150" r="100" fill="blue" stroke="black" stroke-width="3"></circle>
+	<circle cx="150" cy="102" r="15" fill="white" stroke="black" stroke-width="2"></circle>
+	<rect x="138" y="128" width="25" height="80" rx="15" ry="15" fill="white" stroke="black" stroke-width="2"/>
+
+	<circle cx="450" cy="150" r="100" fill="red" stroke="black" stroke-width="3"></circle>
+	<rect x="437" y="77" width="25" height="80" rx="15" ry="15" fill="white" stroke="black" stroke-width="2"/>
+	<circle cx="450" cy="190" r="15" fill="white" stroke="black" stroke-width="2"></circle>
+
+	<circle cx="750" cy="150" r="100" fill="green" stroke="black" stroke-width="3"></circle>
+	<text x="720" y="160" style="fill:white; stroke:white; stroke-width:0.5; word-spacing: 2.5" font-size="40">OK</text>
+
+</svg>

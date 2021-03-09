@@ -1,0 +1,41 @@
+<svg version="1.1" baseProfile="full" width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+	<g >
+		<path d="M680,235
+			C680,235 750,350 680,330 680,345" style="fill:pink;"/>
+		<path d="M680,237
+			C680,235 725,350 665,325 680,343" style="fill:white;"/>
+
+		<path d="M580,135
+			C580,135 665,345 580,325 580,315" style="fill:pink;"/>
+		<path d="M580,145
+			C580,145 650,350 560,320 570,325" style="fill:white;"/>
+
+		<path d="M475,175
+			C475,175 555,350 475,325 480,300" style="fill:pink;"/>
+		<path d="M475,180
+			C475,180 540,345 460,320 470,325" style="fill:white;"/>
+	</g>
+	<g style="stroke:light-green; stroke-width:3; fill:aquamarine;">
+		<path d="M300,400
+			L400,500
+			L700,500
+			C700,500 800,500 800,400
+			L300,400
+			Z"/>
+
+		<path d="M685,400
+		L680,200
+		L675,400
+		Z"/>
+
+		<path d="M585,400
+			L580,100
+			L575,400
+			Z"/>
+
+		<path d="M480,400
+			L475,150
+			L470,400
+			Z"/>
+	</g>
+</svg>
