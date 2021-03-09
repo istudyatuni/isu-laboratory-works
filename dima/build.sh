@@ -4,11 +4,11 @@ if [[ "$1" == "-h" ]]; then
 	exit 0
 fi
 
+file_folder=svg-2
 ext=md
-fname='1/report.md 1/attachment.md'
+fname="$file_folder/report.md $file_folder/attachment.md"
 res=result.pdf
 meta=meta.yml
-file_folder=1
 
 if [ "$ext" == "md" ]; then
 	if [[ -f "$file_folder/file-merger.yml" ]]; then

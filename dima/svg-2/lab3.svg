@@ -1,0 +1,31 @@
+<svg version="1.1" baseProfile="full" width="1500" height="500" xmlns="http://www.w3.org/2000/svg">
+	<style>svg { background-color: darkgray; }</style>
+	<text x="100" y="100">
+		<tspan x="100" dy="1em" rotate="30" style="letter-spacing:2; font-family: cursive; fill:green;">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		</tspan>
+		<tspan x="100" dy="2em" rotate="-30" style="letter-spacing:2; font-family: fantasy; fill:darkgreen;">
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</tspan>
+		<tspan x="100" dy="2em" style="font-size: 20;letter-spacing:2; font-family: monospace; fill:darkolivegreen;">
+			<tspan dy="1em">Duis aute irure dolor </tspan>
+			<tspan dy="1em">in reprehenderit in voluptate </tspan>
+			<tspan dy="1em">velit esse cillum dolore </tspan>
+			<tspan dy="1em">eu fugiat nulla pariatur.</tspan>
+		</tspan>
+		<tspan x="100" dy="2em" style="letter-spacing:2; font-family: sans-serif; fill:forestgreen;">
+			<tspan dy="4em">Excepteur sint occaecat cupidatat </tspan>
+			<tspan dy="-1em">non proident, sunt in </tspan>
+			<tspan dy="-1em">culpa qui officia deserunt </tspan>
+			<tspan dy="-1em">mollit anim id est laborum.</tspan>
+		</tspan>
+	</text>
+	<defs>
+		<path id="myPath" d="M125,475 Q200,425 275,475 T425,475 T575,475 T1525,375" />
+	</defs>
+	<text text-anchor="left" style="fill:olivedrab; font-size:20;">
+		<textPath href="#myPath">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		</textPath>
+	</text>
+</svg>
