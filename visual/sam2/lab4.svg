@@ -1,0 +1,55 @@
+<svg version="1.1" baseProfile="full" width="390" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 300"><!-- 0 0 390 300 -->
+<defs>
+	<linearGradient id="grad_lin1" x1="0%" y1="0%" x2="100%" y2="100%">
+	<stop offset="0%" stop-color="yellow"/>
+	<stop offset="100%" stop-color="red"/>
+	</linearGradient>
+	<radialGradient id="grad_rad1">
+		<stop offset="0%" stop-color="#FF1C9D"></stop>
+		<stop offset="100%" stop-color="cyan" stop-opacity="10%"></stop>
+	</radialGradient>
+	<radialGradient id="grad_rad2" cx="50%" cy="50%" r="40%">
+		<stop offset="0%" stop-color="darkblue"></stop>
+		<stop offset="80%" stop-color="pink" stop-opacity="80%"></stop>
+	</radialGradient>
+</defs>
+<rect x="100" width="90" height="50" style="fill:url(#grad_lin1)" />
+<polygon style="stroke:cyan; stroke-linejoin: round; stroke-linecap: round; stroke-dasharray: 13,5,7,3; fill:url(#grad_rad1)" points="50,0 100,63 28,97 10,20 90,20 72,97 0,63"/>
+
+<pattern id="pattern1" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse" >
+<ellipse cx="11" cy="21" rx="10" ry="20" fill="url(#grad_rad2)" stroke="black"/>
+</pattern>
+<rect x="10" y="140" width="146" height="146" fill="url(#pattern1)" />
+<text x="270" y="50" style="font-size: 1.5em; fill:url(#grad_rad2); fill-opacity: 0.3">Just text</text>
+
+<defs>
+	<marker id="marker1" markerWidth="25" markerHeight="25" orient="250" refX="5">
+		<polygon style="fill:none; stroke: green;" stroke-width="1" points="0,0 5,10 10,0" />
+	</marker>
+</defs>
+<line x1="170" y1="70" x2="240" y2="50" stroke="red" stroke-width="2" marker-end="url(#marker1)"/>
+
+<defs>
+	<symbol id="symbol1" viewBox="0 0 100 100" preserveAspectRatio="none">
+		<path d="M0,0 l 50,50 M 50,0 l -50,50" />
+	</symbol>
+</defs>
+<use x="38" y="40" href="#symbol1" width="50" height="50" style="fill: black; stroke: black;" stroke-width="5" />
+<use x="135" y="15" href="#symbol1" width="50" height="50" style="fill: black; stroke: black;" stroke-width="10" />
+
+<defs>
+	<clipPath id="clippath1">
+		<circle cx="210" cy="150" r="30" />
+		<circle cx="250" cy="150" r="30" />
+	</clipPath>
+</defs>
+<image x="180" y="100" width="100" height="100" href="im.png" clip-path="url(#clippath1)" />
+
+<defs>
+	<mask id="mask1">
+		<circle cx="210" cy="230" r="30" style="fill:url(#grad_rad2)" />
+		<circle cx="250" cy="230" r="30" style="fill:url(#grad_rad1)" />
+	</mask>
+</defs>
+<image x="180" y="190" width="100" height="100" href="im.png" mask="url(#mask1)" />
+</svg>

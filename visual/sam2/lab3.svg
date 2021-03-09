@@ -1,0 +1,14 @@
+<svg version="1.1" baseProfile="full" width="390" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 80">
+<!-- <defs> -->
+	<path id="path1" d="M20,20 q 30,-30 50,20 t30,-30" style="fill:none; stroke: black; stroke-width:1"/>
+<!-- </defs> -->
+<text font-size="14" text-anchor="middle" fill="blue">
+	<textPath href="#path1" startOffset="40%">
+		Text
+		 <tspan dy="-7 7" style="fill:cyan" rotate="50">test</tspan>
+		 <tspan style="fill:red" dx="0 2" dominant-baseline="hanging">more</tspan>
+		more
+	</textPath>
+</text>
+<text y="80" style="fill:green; stroke:red; stroke-width:0.5; text-decoration: overline line-through; word-spacing: 2.5" font-size-adjust="2.1">One <tspan style="direction: rtl; unicode-bidi: bidi-override">else</tspan> text</text>
+</svg>
