@@ -1,0 +1,18 @@
+files:
+  - text: "\\clearpage\n# Приложение\n\n## *Приложение 1*\n"
+  - lab1/script.js
+  - lab1/index.html
+  - text: "## *Приложение 2*\n"
+  - lab2/script1.js
+  - lab2/script2.js
+  - lab2/index.html
+  - text: "## *Приложение 3*\n"
+  - lab3/script.js
+  - lab3/index.html
+
+add_file_names: true
+code_in_md: true
+file_label: "Файл: "
+folder: nets/2
+output: attachment.md
+remove_folder: true

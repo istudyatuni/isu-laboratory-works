@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ЛР 2</title>
+	<style>
+		* {
+			font-family: sans-serif;
+		}
+		button {
+			margin-right: 5px;
+		}
+		table {
+			border-collapse: collapse;
+		}
+		td, th {
+			width: 2em;
+			height: 2em;
+			text-align: center;
+			padding: 5px 10px;
+		}
+		.lab {
+			padding: 5px;
+			text-decoration: underline;
+			color: #3EAAFF;
+		}
+		.lab:hover {
+			cursor: pointer;
+			background-color: #f1f1f1;
+		}
+		.active {
+			color: #0012C7;
+		}
+	</style>
+</head>
+<body>
+	<h1>ЛР 2. Информационные сети</h1>
+	<h2>
+		<span class="lab" id="lab1" onclick="show_1()">ЛР 2.1</span>
+		<span class="lab" id="lab2" onclick="show_2()">ЛР 2.2</span>
+	</h2>
+	<div id="buttons"></div>
+	<h3 id="title"></h3>
+	<p id="desc"></p>
+
+	<div id="some-stuff"></div>
+	<script type="text/javascript" src="script1.js"></script>
+	<script type="text/javascript" src="script2.js"></script>
+	<script type="text/javascript" src="script3.js"></script>
+</body>
+</html>
