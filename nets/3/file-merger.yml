@@ -13,6 +13,6 @@ files:
 add_file_names: true
 code_in_md: true
 file_label: "Файл: "
-folder: nets/2
+folder: nets/3
 output: attachment.md
 remove_folder: true
