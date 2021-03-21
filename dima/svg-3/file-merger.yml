@@ -1,0 +1,9 @@
+files:
+  - text: "\\clearpage\n# *Приложение 1*\n"
+  - svg_5.svg
+  - text: "# *Приложение 2*\n"
+  - svg_6.svg
+
+code_in_md: true
+folder: "svg-3"
+output: attachment.md

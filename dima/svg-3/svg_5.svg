@@ -1,0 +1,38 @@
+<svg version="1.1" baseProfile="full" width="1500" height="750" xmlns="http://www.w3.org/2000/svg">
+	<g transform="translate(200,250), rotate(15)">
+		<g transform="scale(1.2,1.2), skewX(15), skewY(15) ">
+			<rect x="10" y="10" height="100" width="100" fill="lightblue"/>
+			<text x="35" y="65" stroke="black">HELLO</text>
+		</g>
+		<g transform="scale(1.2,-1.2), skewX(-15), skewY(-15) ">
+			<rect x="10" y="10" height="100" width="100" fill="lightgreen"/>
+			<text x="35" y="65" stroke="black">HELLO</text>
+		</g>
+		<g transform="scale(-1.2,1.2), skewX(-15), skewY(-15) ">
+			<rect x="10" y="10" height="100" width="100" fill="pink"/>
+			<text x="35" y="65" stroke="black">WORLD</text>
+		</g>
+		<g transform="scale(-1.2,-1.2), skewX(15), skewY(15) ">
+			<rect x="10" y="10" height="100" width="100" fill="moccasin"/>
+			<text x="35" y="65" stroke="black">WORLD</text>
+		</g>
+	</g>
+	<g transform="matrix(-1, 0.5, 0.5, 1 ,700, 300)">
+		<g transform="scale(1.2,1.2), skewX(15), skewY(15) ">
+			<rect x="10" y="10" height="100" width="100" fill="lightblue"/>
+			<text x="35" y="65" stroke="black">HELLO</text>
+		</g>
+		<g transform="scale(1.2,-1.2), skewX(-15), skewY(-15) ">
+			<rect x="10" y="10" height="100" width="100" fill="lightgreen"/>
+			<text x="35" y="65" stroke="black">HELLO</text>
+		</g>
+		<g transform="scale(-1.2,1.2), skewX(-15), skewY(-15) ">
+			<rect x="10" y="10" height="100" width="100" fill="pink"/>
+			<text x="35" y="65" stroke="black">WORLD</text>
+		</g>
+		<g transform="scale(-1.2,-1.2), skewX(15), skewY(15) ">
+			<rect x="10" y="10" height="100" width="100" fill="moccasin"/>
+			<text x="35" y="65" stroke="black">WORLD</text>
+		</g>
+	</g>
+</svg>
