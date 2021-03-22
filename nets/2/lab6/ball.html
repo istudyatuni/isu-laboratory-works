@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Animation</title>
+	<style>
+		@keyframes jump {
+			0% {margin-left: 1em; margin-top: 1em;}
+			40% {margin-left: 1em; margin-top: 10em;}
+			100% {margin-left: 1em; margin-top: 1em;}
+		}
+		#ball {
+			width: 5em;
+			height: 5em;
+			margin: 1em auto auto 1em;
+			background-color: red;
+			border-radius: 5em;
+			animation: jump 1s 1s 1;
+		}
+	</style>
+</head>
+<body>
+	<div id="ball"></div>
+</body>
+</html>

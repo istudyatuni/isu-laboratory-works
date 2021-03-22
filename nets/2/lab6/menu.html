@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menu</title>
+	<style>
+		@keyframes menu-open {
+			0% {display: none;}
+			100% {display: block;}
+			/*0% {height: 0;}*/
+			/*100% {height: fit-content;}*/
+		}
+		.wrapper {
+			display: inline-block;
+		}
+		.wrapper > .menu {
+			display: none;
+			/*transition: display ease-in-out 3s;*/
+			/*background-color: red;*/
+		}
+		.wrapper:hover > .menu {
+			display: block;
+			/*transition: display ease-in-out 3s;*/
+			animation: menu-open 2s 1;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		hover
+		<ul class="menu">
+			<li><a href="car.html">Html file 1</a></li>
+			<li><a href="example1.html">Html file 2</a></li>
+			<li><a href="example2.html">Html file 4</a></li>
+			<li><a href="ball.html">Html file 5</a></li>
+		</ul>
+	</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+files:
+  - text: "\\clearpage\n# Приложение\n\n## *Приложение 1*\n"
+  - lab4/index.html
+  - lab4/index1.html
+  - lab4/index2.html
+  - lab4/index3.html
+  - lab4/index41.html
+  - lab4/index42.html
+  - lab4/index43.html
+  - text: "## *Приложение 2*\n"
+  - lab5/index.html
+  - lab5/index2.html
+  - text: "## *Приложение 3*\n"
+  - lab6/ball.html
+  - lab6/car.html
+  - lab6/example1.html
+  - lab6/example2.html
+  - lab6/menu.html
+
+add_file_names: true
+code_in_md: true
+file_label: "Файл: "
+folder: nets/2
+output: attachment.md
+remove_folder: true

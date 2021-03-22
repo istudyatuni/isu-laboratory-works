@@ -12,10 +12,10 @@ files:
   - lab3/style.css
   - lab3/index-table.html
   - lab3/table-style.css
-  # - text: "# *Приложение 4*\n"
-  # - lab4/index1.html
-  # - lab4/index2.html
-  # - lab4/index3.html
+  - text: "# *Приложение 4*\n"
+  - lab4/index1.html
+  - lab4/index2.html
+  - lab4/index3.html
 
 add_file_names: true
 code_in_md: true

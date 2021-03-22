@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Моя первая страница</title>
+	<style type="text/css">
+		.backimg {
+			background-image: url(cat.jpg), url(cat.jpg);
+			background-size: 150px, 100% 100%;
+			background-repeat: no-repeat;
+			border-radius: 5px;
+		}
+		.shadow {
+			text-shadow: 3px 2px hsl(180, 100%, 50%);
+		}
+		.box-shadow {
+			box-shadow: 10px 4px 20px 12px hsl(150deg 100% 50%);
+			border-image: url(cat.jpg) 30 round round;
+		}
+		.lgrad {
+			background: linear-gradient(to right, blue, pink, red, yellow, green, black, white, lightblue);
+		}
+		.rgrad {
+			background: radial-gradient(red, yellow, blue);
+		}
+		.click-trans {
+			transition: margin ease-in-out 1s;
+			margin-left: 0;
+		}
+		.click-trans:active {
+			transition: margin ease-in-out 3s;
+			margin-left: 1em;
+		}
+	</style>
+</head>
+<body>
+	<h1 align="center">Я, <a href="index2.html">ФИО</a>, изучаю HTML и CSS</h1>
+	<h2 style="transform: skew(41deg, 4deg)">Много текста</h2>
+	<h3 class="shadow">Первый абзац (учеба). Этот текст еще и с тенью</h3>
+	<p class="box-shadow">Я все еще учусь!</p>
+	<h3 class="lgrad">Второй абзац (хобби)</h3>
+	<p class="rgrad">Мне нравится программировать :) <br> И я к сожалению не писатель :(</p>
+	<h3>Третий абзац</h3>
+	<p>А здесь просто текст. <span class="click-trans">И сюда можно кликнуть и подержать нажатой мышку</span></p>
+	<h2>Список с текстом</h2>
+	<ol class="backimg">
+		<li>
+			text
+			<ul type="disk">
+				<li>text</li>
+				<li>text</li>
+			</ul>
+		</li>
+		<li>
+			text
+			<ul type="square">
+				<li>text</li>
+				<li>text</li>
+				<li>text</li>
+			</ul>
+		</li>
+		<li>
+			text
+			<ul type="circle">
+				<li>text</li>
+				<li>text</li>
+			</ul>
+		</li>
+	</ol>
+</body>
+</html>
