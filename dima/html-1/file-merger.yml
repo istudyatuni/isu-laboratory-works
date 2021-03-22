@@ -1,0 +1,23 @@
+files:
+  - text: "\\clearpage\n# *Приложение 1*\n"
+  - Lab_1/index.html
+  - Lab_1/index2.html
+  - text: "# *Приложение 2*\n"
+  - Lab_2/index.html
+  - Lab_2/index2.html
+  - Lab_2/css/style.css
+  - Lab_2/css/style2.css
+  - text: "# *Приложение 3*\n"
+  - Lab_3/index.html
+  - Lab_3/index2.html
+  - Lab_3/index_copy.html
+  - Lab_3/css/style.css
+  - Lab_3/css/style2.css
+  - Lab_3/css/style_copy.css
+
+add_file_names: true
+code_in_md: true
+file_label: "Файл: "
+folder: "html-1"
+output: attachment.md
+remove_folder: true

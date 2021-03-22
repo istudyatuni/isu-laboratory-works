@@ -4,7 +4,7 @@ if [[ "$1" == "-h" ]]; then
 	exit 0
 fi
 
-file_folder=svg-3
+file_folder=html-1
 ext=md
 fname="$file_folder/report.md $file_folder/attachment.md"
 res=result.pdf

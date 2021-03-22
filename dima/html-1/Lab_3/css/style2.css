@@ -1,0 +1,9 @@
+body{
+	background: url(../img/bridge.jpg) top right/25% no-repeat fixed;
+}
+.fio::before {
+	content: "Студент III курса ";
+}
+.fio::after {
+    content: ", проживающий по адресу...";
+}
