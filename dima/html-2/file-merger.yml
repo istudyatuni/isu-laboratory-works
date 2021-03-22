@@ -1,0 +1,35 @@
+files:
+  - text: "\\clearpage\n# *Приложение 1*\n"
+  - Lab_4/index.html
+  - Lab_4/index2.html
+  - Lab_4/index_copy.html
+  - Lab_4/example.html
+  - Lab_4/example2.html
+  - Lab_4/example3.html
+  - Lab_4/css/style.css
+  - Lab_4/css/style2.css
+  - Lab_4/css/style_copy.css
+  - Lab_4/css/style_example3.css
+  - text: "# *Приложение 2*\n"
+  - Lab_5/index.html
+  - Lab_5/index2.html
+  - Lab_5/css/style.css
+  - Lab_5/css/style2.css
+  - text: "# *Приложение 3*\n"
+  - Lab_6/index.html
+  - Lab_6/index2.html
+  - Lab_6/nav.html
+  - Lab_6/example.html
+  - Lab_6/example2.html
+  - Lab_6/css/style.css
+  - Lab_6/css/style2.css
+  - Lab_6/css/nav_style.css
+  - Lab_6/css/index1_style.css
+  - Lab_6/css/index2_style.css
+
+add_file_names: true
+code_in_md: true
+file_label: "Файл: "
+folder: "html-2"
+output: attachment.md
+remove_folder: true
