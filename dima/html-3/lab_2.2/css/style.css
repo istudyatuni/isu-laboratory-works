@@ -1,0 +1,12 @@
+table{
+	border: 1px solid black;
+	border-spacing: 5px;
+	padding: 7px;
+}
+td{
+	padding: 5px;
+	border: 1px solid black;
+}
+button{
+	font-family: cursive;
+}

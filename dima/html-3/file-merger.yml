@@ -1,0 +1,18 @@
+files:
+  - text: "\\clearpage\n# *Приложение 1*\n"
+  - lab_2.1/index.html
+  - lab_2.1/js/script.js
+  - text: "# *Приложение 2*\n"
+  - lab_2.2/index.html
+  - lab_2.2/css/style.css
+  - lab_2.2/js/script.js
+  - text: "# *Приложение 3*\n"
+  - lab_2.3/index.html
+  - lab_2.3/js/script.js
+
+add_file_names: true
+code_in_md: true
+file_label: "Файл: "
+folder: "html-3"
+output: attachment.md
+remove_folder: true
