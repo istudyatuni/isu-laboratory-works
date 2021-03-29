@@ -1,0 +1,11 @@
+files:
+  - text: "\\clearpage\n# Приложение\n"
+  - lab5.svg
+  - lab6.svg
+
+add_file_names: true
+code_in_md: true
+file_label: "Файл: "
+folder: visual/sam3
+output: attachment.md
+remove_folder: true

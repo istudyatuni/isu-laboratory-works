@@ -1,0 +1,22 @@
+<svg version="1.1" baseProfile="full" width="450" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300">
+<defs>
+<g id="flag" style="stroke-width:10; stroke:hsl(100, 100%, 50%); fill: none">
+	<ellipse cx="100" cy="100" rx="50" ry="70"></ellipse>
+	<rect x="50" y="30" width="50" height="140" style="fill:white;stroke:white"></rect>
+</g>
+<g id="pine" style="fill: none; stroke: brown; stroke-width:10">
+	<line x1="0" y1="0" x2="100" y2="0"></line>
+</g>
+</defs>
+<use x="0" y="0" width="100" height="100" href="#flag" transform="translate(380,100) rotate(90) scale(1,2)" />
+<use x="0" y="0" width="100" height="100" href="#flag" transform="translate(50,0)" />
+<use x="0" y="0" width="100" height="100" href="#flag" />
+<use x="0" y="0" width="100" height="100" href="#flag" transform="scale(0.6,0.7) translate(300,80)" />
+
+<use x="0" y="0" width="100" height="100" href="#pine" transform="scale(3,1) translate(10,200)" />
+<use x="0" y="0" width="100" height="100" href="#pine" transform="scale(1,1.8) translate(100,12) rotate(90)" />
+<use x="0" y="0" width="100" height="100" href="#pine" transform="scale(1,1.8) translate(150,12) rotate(90)" />
+<use x="0" y="0" width="100" height="100" href="#pine" transform="scale(1,1.3) translate(240,50) rotate(90)" />
+<use x="0" y="0" width="100" height="100" href="#pine" transform="scale(1,1) translate(400,166) skewX(100) rotate(20)" />
+<!-- <use x="0" y="0" width="100" height="100" href="#pine" transform="matrix(-0.12795488, 0.9129, -1.15253632, 0.4081, 400, 166)" /> -->
+</svg>
