@@ -1,5 +1,5 @@
 ---
-title: Самостоятельная работа №2
+title: Самостоятельная работа №3
 subtitle: Визуализация и мультимедиа
 ---
 \clearpage
@@ -107,3 +107,47 @@ $$\begin{pmatrix} \cos(20) & -\sin(20) & 0\\  \sin(20) & \cos(20) & 0\\  0 & 0 &
 </defs>
 <text style="filter:url(#filt);" x="0" y="0" >Test text</text>
 ```
+
+Также существует фильтр "смешивание", который задается следующим образом, причем чтобы смешивание работало, необходимо задать группу с атрибутом `enable-background`:
+
+```xml
+<defs>
+	<filter id="mult-blend">
+		<feBlend mode="multiply" in="SourceGraphic" in2="BackgroundImage"/>
+	</filter>
+</defs>
+<g enable-background="new" >
+	<text style="filter:url(#filt); fill:black; stroke:black; stroke-width:1; font-size:2em" x="100" y="100" >Test text</text>
+	<rect x="100" y="50" width="160" height="50" fill="blue" filter="url(#mult-blend)"></rect>
+</g>
+```
+
+Выглядит получившаяся картинка так:
+
+![](mult-blend.png)
+
+Причем прямоугольник находится над текстом!
+
+*Примечание*. В новых браузерах смешивание не отображается совсем.
+
+Также возможно совмещать несколько изображений с помощью фильтра `feMerge`:
+
+```xml
+<defs>
+	<filter id="merge">
+		<feImage href="cat-img" result="cat-img" />
+		<feImage href="doge-img" result="doge-img" />
+		<feMerge>
+			<feMergeNode in="cat-img"/>
+			<feMergeNode in="doge-img"/>
+		</feMerge>
+	</filter>
+	<image id="cat-img" href="cat.jpg" x="100" y="150" opacity="0.5" />
+	<image id="doge-img" href="doge.jpg" x="100" y="150" opacity="0.5" />
+</defs>
+<rect x="100" y="150" width="200" height="200" style="filter:url(#merge)" />
+```
+
+*Примечание*: к сожалению, приведенные в методических указаниях примеры не отображаются нигде, даже в Inkscape, так что данный эффект без картинки.
+
+Кроме приведенных выше фильтров есть большое множество других, например: `feComposite` - фигурная образка изображений, `feFlood` - тонирование изображения заданным цветом с заданной прозрачностью, `feOffset` - для смещения изображения, и много других.

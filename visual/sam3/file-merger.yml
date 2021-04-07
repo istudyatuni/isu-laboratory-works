@@ -1,5 +1,5 @@
 files:
-  - text: "\\clearpage\n# Приложение\n"
+  - text: "\n# Приложение\n"
   - lab5.svg
   - lab6.svg
 
