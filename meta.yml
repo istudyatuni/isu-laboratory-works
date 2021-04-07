@@ -8,7 +8,8 @@ toc: true
 
 mainfont: Times New Roman
 monofont: Courier New
-monofontoptions: 'Scale=0.8'
+monofontoptions:
+  - Scale=0.8
 documentclass: extarticle
 # tab-stop: 2 # not work, set as cli param in build.sh
 fontsize: 14pt

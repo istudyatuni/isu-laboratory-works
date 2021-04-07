@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>2.7</title>
+</head>
+<body>
+	<form name="student-data">
+		<fieldset>
+			<legend>Задание 2</legend>
+			<textarea name="bigtext">ИМИТиЕН</textarea>
+			<br>
+			<input type='text' name='firstname' placeholder="Имя" />
+			<br>
+			<input type='text' name='lastname' placeholder="Фамилия" />
+			<br><b>Специальность</b><br>
+			<select name="spec">
+				<option>Математика</option>
+				<option>Физика</option>
+				<option>Химия</option>
+				<option>Биология</option>
+				<option>Информатика</option>
+			</select>
+			<br><b>Курс</b><br>
+			<input type="radio" name="cource" value="1"> 1
+			<input type="radio" name="cource" value="2"> 2
+			<input type="radio" name="cource" value="3"> 3
+			<input type="radio" name="cource" value="4"> 4
+			<br><b>Предметы</b><br>
+			<input type="checkbox" name="subjects" value="ИКТ"> ИКТ
+			<input type="checkbox" name="subjects" value="УФМ"> УФМ
+			<input type="checkbox" name="subjects" value="История"> История
+			<input type="checkbox" name="subjects" value="Физика"> Физика
+			<input type="checkbox" name="subjects" value="Математика"> Математика
+		</fieldset>
+		<input type="submit" value="submit" />
+		<input type="reset" value="reset" />
+	</form>
+	<button onclick="print_student()">Print</button>
+	<br>
+	<button onclick="fill_form_from_old()">Fill next form</button>
+	<br>
+	<b>Задание 3</b>
+	<div id="student-data"></div>
+	<form name="new-data">
+		<fieldset>
+			<legend>Задание 4</legend>
+			<select name="data">
+				<option>empty</option>
+			</select>
+		</fieldset>
+	</form>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
