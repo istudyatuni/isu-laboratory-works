@@ -1,0 +1,14 @@
+files:
+  - text: "\\clearpage\n# Приложение\n\n## *Приложение 1*\n"
+  - LR_2.4/js/script.js
+  - text: "## *Приложение 2*\n"
+  - LR_2.5/js/script.js
+  - text: "## *Приложение 3*\n"
+  - LR_2.6/js/script.js
+
+add_file_names: true
+code_in_md: true
+file_label: "Файл: "
+folder: html-4
+output: attachment.md
+remove_folder: true
