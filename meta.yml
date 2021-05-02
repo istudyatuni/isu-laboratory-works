@@ -6,6 +6,9 @@ include-before: \begin{center}Ивановский государственны�
 toc-title: Содержание
 toc: true
 
+# hyphenation
+# lang: ru-RU # not work for code snippets
+
 mainfont: Times New Roman
 monofont: Courier New
 monofontoptions:

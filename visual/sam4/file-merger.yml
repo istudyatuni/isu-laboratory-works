@@ -1,0 +1,15 @@
+files:
+  - text: "\\clearpage\n# Приложение\n# *Приложение 1*\n"
+  - lab7.svg
+  - text: "\n# *Приложение 2*\n"
+  - lab9/t1.html
+  - lab9/t2.html
+  - lab9/t3.html
+  - lab9/t4.html
+
+add_file_names: true
+code_in_md: true
+file_label: "Файл: "
+folder: visual/sam4
+output: attachment.md
+remove_folder: true

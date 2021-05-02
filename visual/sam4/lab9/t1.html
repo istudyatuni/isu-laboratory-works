@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Перемещаемое изображение и поле с текстом</title>
+	</head>
+	<body>
+		Картинка двигается перетаскиванием, поля для ввода начинают движение с двойного клика
+		<script>
+			let flag = false // нельзя перемещать
+			let id_img = ""
+			function drag_img() {
+				flag = true
+				id_img = event.srcElement.id
+			}
+			let tracked = document.querySelector('html')
+			tracked.onmousemove = () => {
+				if (flag){ // если можно перемещать
+					document.all[id_img].style.top = event.clientY + 'px'
+					document.all[id_img].style.left = event.clientX + 'px'
+				}
+			}
+			tracked.onmouseup = () =>  {
+				flag = false // нельзя перемещать
+			}
+		</script>
+		<img id="myimg" src="cat.jpg" ondragstart="drag_img()" style="position:absolute; top:50px; left:10px">
+		<textarea id="tl" ondblclick="drag_text()" style="position:absolute; top:40px; left: 10px; font-size: large">Это – первый текст</textarea>
+		<textarea id="t2" ondblclick="drag_text()" style="position:absolute; top:100px; left:150px">Это – второй текст </textarea>
+		<textarea id="t3" ondblclick="drag_text()" style="position:absolute; top:150px; left:250px">Это - третий текст </textarea>
+		<script>
+			function drag_text() {
+				flag = true
+				id_img = event.srcElement.id
+				// id элемента, который надо перемещать
+			}
+			tracked.onmousemove = () => {
+				if (flag) {
+					document.all[id_img].style.top = event.clientY + 'px'
+					document.all[id_img].style.left = event.clientX + 'px'
+					resizetext()
+				}
+			}
+			// установка размеров текстовых областей
+			tracked.onmouseup = () => {
+				flag = false
+			}
+			function resizetext() {
+				// установка размеров областей
+				var y, size, idimg, idtext
+				for (i = 0; i < document.all.length; i++) {
+					if (document.all[i].tagName == 'TEXTAREA') {
+						idtext = document.all[i].id
+						y = parseInt(document.all[idtext].style.top)
+						size = Math.min(y, 800)
+						size = Math.max(size, 60)
+						document.all[idtext].style.width = size + 'px'
+						document.all[idtext].style.height = (0.8 * size) + 'px'
+						document.all[idtext].style.zIndex = y
+						document.all[idtext].style.fontSize = Math.max(2, y / 10)
+					}
+				}
+			}
+			resizetext()
+		</script>
+	</body>
+</html>
