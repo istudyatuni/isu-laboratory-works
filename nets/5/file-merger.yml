@@ -8,6 +8,11 @@ files:
   - text: "## *Приложение 3*\n*Лабораторная работа 2.8*\n"
   - lab10/lab8/index.html
   - lab10/lab8/script.js
+  - text: "## *Приложение 4*\n*Лабораторная работа 2.9*\n"
+  - lab10/lab9/t1.html
+  - lab10/lab9/t2.html
+  - lab10/lab9/t3.html
+  - lab10/lab9/t4.html
 
 add_file_names: true
 code_in_md: true
