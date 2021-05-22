@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>4.1</title>
+</head>
+<body>
+	<header>
+		<h1>Я, <mark>ФИО</mark>, изучаю HTML5</h1>
+		<br>Эта страница с семантической версткой!
+	</header>
+	<nav>
+		<figure>
+			<img src='cat.jpg' width='300' height='230' />
+			<figcaption>Уставший автор</figcaption>
+		</figure>
+	</nav>
+	<main>
+		Очень много полей с данными:
+		<form id="data">
+			<input
+				id="email"
+				oninput="out_data_email.value=email.value"
+				type="email"
+				name="email"
+				placeholder="email"
+				multiple
+				required>
+			<input
+				type="url"
+				name="url"
+				placeholder="url">
+			<input
+				id="tel"
+				oninput="out_data_tel.value=tel.value"
+				type="tel"
+				pattern="\+7\-?\d{3}\-?\d{3}\-?\d{2}\-?\d{2}"
+				name="tel"
+				placeholder="tel"
+				required>
+			<input
+				type="number"
+				name="number"
+				min="0"
+				max="120"
+				step="2.3"
+				placeholder="number">
+			<input
+				type="range"
+				name="range"
+				min="0"
+				max="120"
+				step="2.3"
+				oninput="range_res.value=parseFloat(range.value)">
+			<output name="range_res">59.8</output>
+			<input
+				type="search"
+				name="search"
+				placeholder="search"
+				list="search-list"
+				autofocus>
+			<datalist id="search-list">
+				<option value="BIg text"></option>
+				<option value="Yet another text"></option>
+			</datalist>
+			<input type="color" name="color">
+			<input type="submit" name="submit">
+			<keygen>keygen is deprecated</keygen>
+		</form>
+		<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+			<input type="range" name="b" value="50" /> +
+			<input type="number" name="a" value="10" /> =
+			<output name="result">60</output>
+		</form>
+		<form>
+			<input type="date" name="date">
+			<input type="time" name="time">
+			<input type="datetime" placeholder="datetime is deprecated">
+			<input type="datetime-local" name="datetime-local">
+			<input type="month" name="month">
+			<input type="week" name="week">
+			<input type="submit">
+		</form>
+	</main>
+	<footer>
+		ФИО<br>3 курс<br>3 группа<br>
+		Email: <output id="out_data_email" for="email">Заполните поле email</output>
+		<br>
+		Phone: <output id="out_data_tel" for="tel">Заполните поле tel</output>
+	</footer>
+</body>
+</html>

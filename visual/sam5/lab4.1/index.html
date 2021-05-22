@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>4.1</title>
+</head>
+<body>
+	<script type="text/javascript">
+		navigator.geolocation.getCurrentPosition((position) => {
+			console.log(position, 'Coordinates:', position.coords.latitude, position.coords.longitude)
+		}, (e) => {console.error('error', e)})
+	</script>
+	<h1>Я, <mark>ФИО</mark>, изучаю HTML5</h1>
+	<audio src="this is linus and i pronounse linux as linux.mp3" controls></audio>
+	<video src="2020-12-21_13-04-06.mkv" width="1000px" controls></video>
+	<canvas id="canvas" width="1000px" height="600px"></canvas>
+	<script type="text/javascript">
+		let canvas = document.getElementById('canvas')
+		let c = canvas.getContext('2d')
+		c.fillStyle = 'rgba(0, 0, 0, 0.3)'
+		c.fillRect(0, 0, 1000, 600)
+		c.fillStyle = 'rgba(255, 0, 0)'
+
+		c.beginPath()
+		c.moveTo(100, 300)
+		c.lineTo(100, 100)
+		c.lineTo(300, 100)
+		c.lineTo(200, 200)
+		c.lineTo(300, 300)
+		c.lineTo(100, 300)
+		c.closePath()
+		c.fill()
+
+		c.fillStyle = 'brown'
+		c.fillRect(100, 100, 10, 500)
+
+		let grad = c.createLinearGradient(30, 0, 20, 40);
+		grad.addColorStop(0.0,'green');
+		grad.addColorStop(1.0,'red');
+		c.fillStyle = grad
+
+		c.font = '20pt sans-serif'
+		c.fillText('свои ФИО', 20, 40)
+	</script>
+</body>
+</html>
