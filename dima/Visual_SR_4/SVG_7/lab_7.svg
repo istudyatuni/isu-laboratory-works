@@ -1,0 +1,24 @@
+<svg version="1.1" baseProfile="full" width="1000" height="500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500">
+<g id="reload" stroke-width="2" stroke="red" fill="none">   
+    <circle cx="100" cy="75" r="15" fill="red" opacity="0"/> 
+    <path d="M 110 65 A 15 15 0 10 115 75"/>
+    <path d="M 105 58.5 110 65 102.5 64.5"/>
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 100 76"
+      to="360 100 76"
+      dur="2s"
+      repeatCount="1"
+      begin="click"/>
+  </g>  
+  <g>
+    <path id="holder" d="M 50 5 L 50 90 Q 55 95 60 90" stroke-width="2" stroke="red" stroke-linecap="round" fill="none"/>
+    <path id="umbrella" d="M 50 10 40 80 Q 50 85 60 80;">
+    <animate begin="reload.click" dur="2s" repeatCount="1" attributeName="d"        
+     values="M 50 10 40 80 Q 50 85 60 80;  
+             M 50 10 0 25 Q 50 35 100 25;
+             M 50 10 40 80 Q 50 85 60 80"/>   
+    </path>           
+  </g>   
+</svg>

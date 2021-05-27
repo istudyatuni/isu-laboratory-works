@@ -1,0 +1,19 @@
+files:
+  - text: "\\clearpage\n# Приложение\n## *Приложение 1*\n"
+  - SVG_7/lab_7.svg
+  - text: "\n## *Приложение 2*\n"
+  - LR_2.9/index1.html
+  - LR_2.9/index2.html
+  - LR_2.9/index3.html
+  - LR_2.9/index4.html
+  - LR_2.9/js/script1.js
+  - LR_2.9/js/script2.js
+  - LR_2.9/js/script3.js
+  - LR_2.9/js/script4.js
+
+add_file_names: true
+code_in_md: true
+file_label: "Файл: "
+folder: Visual_SR_4
+output: attachment.md
+remove_folder: true
