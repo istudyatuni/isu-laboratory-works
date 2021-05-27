@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab_4.2</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">I, <mark>Dmitry Alexandrovich Krylov</mark>, study HTML5</h1>
+    </header>
+    <nav>
+		<figure>
+			<img src='image/bluedog.jpg' width='300' height='300' />
+			<figcaption>Author:(</figcaption>
+		</figure>
+	</nav>
+    <form>
+        <fieldset>
+            <legend>Form</legend>
+            <p>
+                <label for="FIO">FIO</label>
+                <input
+                    id="FIO"
+                    oninput="out_data_FIO.value=FIO.value"
+                    type="text"
+                    name="FIO"
+                    placeholder="FIO"
+                    multiplie
+                    required>
+            </p>
+            <p>
+                <label for="course">Course</label>
+                <input
+                    id="number"
+                    oninput="out_data_course.value=course.value"
+                    type="number"
+                    name="course"
+                    placeholder="Course"
+                    multiplie
+                    required>
+            </p>
+            <p>
+                <label for="tel">tel</label>
+                <input
+                    id="tel"
+                    oninput="out_data_tel.value=tel.value"
+                    type="tel"
+                    pattern="\+7\-?\d{3}\-?\d{3}\-?\d{2}\-?\d{2}"
+                    name="tel"
+                    placeholder="tel"
+                    required>
+            </p>
+            <p>
+                <label for="email">E-mail</label>
+                <input
+                    id="email"
+                    oninput="out_data_email.value=email.value"
+                    type="email"
+                    name="email"
+                    placeholder="email"
+                    multiple
+                    required>
+            </p>
+            <p>
+                <label for="date">Date</label>
+                <input
+                    id="date"
+                    oninput="out_data_date.value=date.value"
+                    type="date"
+                    name="date"
+                    placeholder="date"
+                    multiple
+                    required>
+            </p>
+            <p>
+                <label for="time">Date</label>
+                <input
+                    id="time"
+                    oninput="out_data_time.value=time.value"
+                    type="time"
+                    name="time"
+                    placeholder="time"
+                    multiple
+                    required>
+            </p>
+        </fieldset>
+        <p><input type="submit" value="Отправить"></p>
+    </form>
+    <footer>
+        FIO: <output id="out_data_FIO" for="FIO"></output>
+        <br>
+        Course: <output id="out_data_course" for="course"></output>
+		<br>
+		Email: <output id="out_data_email" for="email"></output>
+		<br>
+		Phone: <output id="out_data_tel" for="tel"></output>
+        <br>
+        Date: <output id="out_data_date" for="date"></output>
+        <br>
+        Time: <output id="out_data_time" for="date"></output>
+    </footer>
+</body>
+</html>
