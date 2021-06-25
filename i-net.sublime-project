@@ -2,11 +2,14 @@
 	"folders":
 	[
 		{
-			"path": "."
+			"path": ".",
 		},
 		{
-			"path": "~/scripts/file-merger"
-		}
+			"path": "/home/ii3/scripts/file-merger",
+		},
+		{
+			"path": "nets/keis/site"
+		},
 	],
 	"build_systems":
 	[
@@ -15,8 +18,8 @@
 			"file_patterns": ["*.md"],
 			"working_dir": "$project_path",
 			"linux": {
-				"shell_cmd": "./build.sh $file_extension '$file $file_path/attachment.md' result.pdf meta.yml $file_path"
-			}
+				"shell_cmd": "./build.sh $file_extension '$file $file_path/attachment.md' result.pdf meta.yml $file_path",
+			},
 		}
-	]
+	],
 }
