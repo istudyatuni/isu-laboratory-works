@@ -8,3 +8,6 @@ attachment.md
 # archives
 *.tar.gz
 *~
+
+# now store images in avif
+*.png

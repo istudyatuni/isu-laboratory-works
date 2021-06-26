@@ -4,9 +4,9 @@ if [[ "$1" == "-h" ]]; then
 	exit 0
 fi
 
-file_folder='SR_5_inf'
+file_folder='SR_8'
 ext=md
-fname="$file_folder/report.md" # $file_folder/attachment.md"
+fname="$file_folder/SR8.md" # $file_folder/attachment.md"
 res=result.pdf
 meta=meta.yml
 
