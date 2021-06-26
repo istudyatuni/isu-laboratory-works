@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form name="data">
+		<fieldset>
+			<legend>User data</legend>
+			Firstame: <br/> <input type="text" name="firstname"/></br>
+			Surname: <br/> <input type="text" name="surname"/></br>
+			Middlename: <br/> <input type="text" name="middlename"/></br>
+			<p>Specify your gender</p>
+			<input type="radio" name="s" value="m"/>Male</br>
+			<input type="radio" name="s" value="f"/>Female</br>
+		</fieldset>
+	<br>
+		<fieldset>
+			<p>What specialty do you consider promising?</p>
+		<fieldset>
+			<input type="checkbox" name="space" value="1"/>Information systems and technologies</br>
+			<input type="checkbox" name="space" value="1"/>Information technology software</br>
+			<input type="checkbox" name="space" value="1"/>Information security software for mobile systems</br>
+			<input type="checkbox" name="space" value="1"/>Design of electronic and web publications</br>
+		</fieldset>
+		<br>
+		<div>
+			<button type="button" id="">TEMP_NAME</button>
+		</div>
+	</form>
+	<script type="text/javascript">
+		alert(document.forms.length)
+		alert(document.forms[0].name)
+		alert(document.forms.data.length)
+	</script>
+</body>
+</html>

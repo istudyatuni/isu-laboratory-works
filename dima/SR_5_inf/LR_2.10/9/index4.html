@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Draw curve</title>
+</head>
+<body>
+	<form id="func" onsubmit="event.preventDefault(); draw()">
+		<input type="radio" name="f" value="square" checked> y = x<sup>2</sup>
+		<input type="radio" name="f" value="cube"> y = x<sup>3</sup>
+		<input type="radio" name="f" value="sin"> y = sin(x)
+		<input type="radio" name="f" value="cos"> y = cos(x)
+		<br />Color
+		<select name="color">
+			<option selected>black</option>
+			<option>blue</option>
+			<option>red</option>
+			<option>yellow</option>
+		</select><br />
+		<input type="submit" value="draw" />
+	</form>
+    <script src="js/script4.js"></script>
+</body>
+</html>
