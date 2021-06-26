@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project PUBLIC "NET-Simulator/dtd/netsimulator.dtd" "http://www.net-simulator.org/dtd/1.0/netsimulator.dtd">
+<project author="" description="" createDate="" currentId="226">
+	<desktopShape id="85" name="Desktop 1" description="" x="348" y="199">
+		<IP4Router id="86">
+			<eth id="88" name="eth0" status="1" mac="0:0:0:0:56:0" ip4="172.30.0.1" ip4bcast="172.30.0.255" ip4mask="255.255.255.0" bandwidth="0" />
+			<routingTable>
+				<row target="172.30.0.0" netmask="255.255.255.0" gateway="" metric="0" iface="eth0" />
+			</routingTable>
+		</IP4Router>
+		<socketShape id="90" x="386" y="234" devId="88" />
+	</desktopShape>
+	<desktopShape id="111" name="Desktop 2" description="" x="241" y="314">
+		<IP4Router id="112">
+			<eth id="114" name="eth0" status="1" mac="0:0:0:0:70:0" ip4="172.30.0.2" ip4bcast="172.30.0.255" ip4mask="255.255.255.0" bandwidth="0" />
+			<routingTable>
+				<row target="172.30.0.0" netmask="255.255.255.0" gateway="" metric="0" iface="eth0" />
+			</routingTable>
+		</IP4Router>
+		<socketShape id="116" x="279" y="349" devId="114" />
+	</desktopShape>
+	<desktopShape id="117" name="Desktop 3" description="" x="386" y="318">
+		<IP4Router id="118">
+			<eth id="120" name="eth0" status="1" mac="0:0:0:0:76:0" ip4="10.0.10.3" ip4bcast="10.0.10.255" ip4mask="255.255.255.0" bandwidth="0" />
+			<routingTable>
+				<row target="10.0.10.0" netmask="255.255.255.0" gateway="" metric="0" iface="eth0" />
+			</routingTable>
+		</IP4Router>
+		<socketShape id="122" x="424" y="353" devId="120" />
+	</desktopShape>
+	<desktopShape id="123" name="Desktop 4" description="" x="518" y="321">
+		<IP4Router id="124">
+			<eth id="126" name="eth0" status="1" mac="0:0:0:0:7C:0" ip4="10.0.10.4" ip4bcast="10.0.10.255" ip4mask="255.255.255.0" bandwidth="0" />
+			<routingTable>
+				<row target="10.0.10.0" netmask="255.255.255.0" gateway="" metric="0" iface="eth0" />
+			</routingTable>
+		</IP4Router>
+		<socketShape id="128" x="556" y="356" devId="126" />
+	</desktopShape>
+	<desktopShape id="129" name="Desktop 5" description="" x="757" y="319">
+		<IP4Router id="130">
+			<eth id="132" name="eth0" status="1" mac="0:0:0:0:82:0" ip4="192.168.99.1" ip4bcast="192.168.99.3" ip4mask="255.255.255.252" bandwidth="0" />
+			<routingTable>
+				<row target="192.168.99.0" netmask="255.255.255.252" gateway="" metric="0" iface="eth0" />
+			</routingTable>
+		</IP4Router>
+		<socketShape id="134" x="795" y="354" devId="132" />
+	</desktopShape>
+	<desktopShape id="135" name="Desktop 6" description="" x="628" y="310">
+		<IP4Router id="136">
+			<eth id="138" name="eth0" status="1" mac="0:0:0:0:88:0" ip4="192.168.99.2" ip4bcast="192.168.99.3" ip4mask="255.255.255.252" bandwidth="0" />
+			<routingTable>
+				<row target="192.168.99.0" netmask="255.255.255.252" gateway="" metric="0" iface="eth0" />
+			</routingTable>
+		</IP4Router>
+		<socketShape id="140" x="666" y="345" devId="138" />
+	</desktopShape>
+	<hubShape id="145" name="HUB 1" description="" x="451" y="209">
+		<hub id="146">
+			<port id="147" />
+			<port id="148" />
+			<port id="149" />
+			<port id="150" />
+			<port id="151" />
+			<port id="152" />
+			<port id="153" />
+			<port id="154" />
+		</hub>
+		<socketShape id="155" x="481" y="227" devId="147" />
+		<socketShape id="156" x="489" y="227" devId="148" />
+		<socketShape id="157" x="497" y="227" devId="149" />
+		<socketShape id="158" x="505" y="227" devId="150" />
+		<socketShape id="159" x="513" y="227" devId="151" />
+		<socketShape id="160" x="521" y="227" devId="152" />
+		<socketShape id="161" x="529" y="227" devId="153" />
+		<socketShape id="162" x="537" y="227" devId="154" />
+	</hubShape>
+	<switchShape id="197" name="Switch 1" description="" x="687" y="207">
+		<switch id="198">
+			<port id="199" />
+			<port id="200" />
+			<port id="201" />
+			<port id="202" />
+			<port id="203" />
+			<port id="204" />
+			<port id="205" />
+			<port id="206" />
+		</switch>
+		<socketShape id="207" x="717" y="225" devId="199" />
+		<socketShape id="208" x="725" y="225" devId="200" />
+		<socketShape id="209" x="733" y="225" devId="201" />
+		<socketShape id="210" x="741" y="225" devId="202" />
+		<socketShape id="211" x="749" y="225" devId="203" />
+		<socketShape id="212" x="757" y="225" devId="204" />
+		<socketShape id="213" x="765" y="225" devId="205" />
+		<socketShape id="214" x="773" y="225" devId="206" />
+	</switchShape>
+	<patchcord id="141">
+		<media id="142" pointsCount="2" />
+		<plug id="143" point="1" x="279" y="349" socket="116" />
+		<plug id="144" point="2" x="386" y="234" socket="90" />
+	</patchcord>
+	<patchcord id="163">
+		<media id="164" pointsCount="2" />
+		<plug id="165" point="1" x="424" y="353" socket="122" />
+		<plug id="166" point="2" x="481" y="227" socket="155" />
+	</patchcord>
+	<patchcord id="167">
+		<media id="168" pointsCount="2" />
+		<plug id="169" point="1" x="489" y="227" socket="156" />
+		<plug id="170" point="2" x="556" y="356" socket="128" />
+	</patchcord>
+	<patchcord id="189">
+		<media id="190" pointsCount="2" />
+		<plug id="191" point="1" x="795" y="354" socket="134" />
+		<plug id="192" point="2" x="725" y="225" socket="208" />
+	</patchcord>
+	<patchcord id="193">
+		<media id="194" pointsCount="2" />
+		<plug id="195" point="1" x="666" y="345" socket="140" />
+		<plug id="196" point="2" x="717" y="225" socket="207" />
+	</patchcord>
+</project>

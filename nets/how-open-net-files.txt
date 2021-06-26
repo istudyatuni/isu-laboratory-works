@@ -1,0 +1,1 @@
+*.net files should be opened with NetEmul: http://netemul.sourceforge.net
