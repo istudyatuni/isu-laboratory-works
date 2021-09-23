@@ -7,9 +7,6 @@
 		{
 			"path": "/home/ii3/scripts/file-merger",
 		},
-		{
-			"path": "nets/keis/site"
-		},
 	],
 	"build_systems":
 	[
