@@ -11,3 +11,6 @@ attachment.md
 
 # now store images in avif
 *.png
+
+*.odb
+*.lck
