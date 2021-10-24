@@ -1,10 +1,16 @@
 # Как собирать PDF
 
-Запустить сборку (F7) находясь в файле с отчетом, папка с этим файлом должна содержать файл `attachment.md` с исходным кодом в одном файле, идет как `Приложение` в отчете.
+Запустить сборку (F7 в Siblime Text) находясь в файле с отчетом, папка с этим файлом должна содержать файл `attachment.md` с исходным кодом в одном файле, идет как `Приложение` в отчете.
 
-`attachment.md` собирается `file-merger` и использует конфиг `file-merger.yml`
+Также можно собрать вручную:
 
-Все изображения для вставки должны находится в `folder_with_report/imgs`
+```bash
+./build.sh 'md' 'report.md path/to/attachment.md' result.pdf meta.yml 'folder_with_report'
+```
+
+`attachment.md` собирается с помощью [file-merger](https://github.com/istudyatuni/file-merger) и использует конфиг `file-merger.yml`.
+
+Все изображения для вставки должны находится в `folder_with_report/imgs`.
 
 ## Avif
 
@@ -15,4 +21,4 @@ cd imgs
 mogrify -format png *.avif
 ```
 
-Это создаст копию каждого avif изображения в png формате. mogrify из пакета imagemagick
+Это создаст копию каждого avif изображения в png формате. mogrify из пакета imagemagick.
