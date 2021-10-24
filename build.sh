@@ -1,5 +1,5 @@
 #!/bin/bash
-usage="Usage: $0 [file_type] [file_name] [output_file] [meta_file]"
+usage="Usage: $0 [file_type] '[files_names]' [output_file] [meta_file] [path_to_file]"
 
 if [[ "$1" == "-h" ]]; then
 	echo $usage
