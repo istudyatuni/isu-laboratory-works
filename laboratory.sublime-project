@@ -17,6 +17,14 @@
 			"linux": {
 				"shell_cmd": "./build.sh $file_extension '$file $file_path/attachment.md' result.pdf meta.yml $file_path",
 			},
+		},
+		{
+			"name": "Build pdf without attachment",
+			"file_patterns": ["*.md"],
+			"working_dir": "$project_path",
+			"linux": {
+				"shell_cmd": "./build.sh $file_extension '$file' result.pdf meta.yml $file_path",
+			},
 		}
 	],
 }
