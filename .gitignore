@@ -7,6 +7,7 @@ attachment.md
 
 # archives
 *.tar.gz
+*.zip
 *~
 
 # now store images in avif
@@ -15,3 +16,4 @@ attachment.md
 *.odb
 *.lck
 *.ods
+*~lock*
