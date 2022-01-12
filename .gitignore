@@ -6,7 +6,7 @@ attachment.md
 *.pdf
 
 # archives
-*.tar.gz
+*.tar.*
 *.zip
 *~
 
@@ -17,3 +17,6 @@ attachment.md
 *.lck
 *.ods
 *~lock*
+
+*.sql
+*.log
