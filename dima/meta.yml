@@ -1,6 +1,6 @@
 author:
   - Крылов Дмитрий
-include-before: \begin{center}Ивановский государственный университет\linebreak ИМИТиЕН, 3 курс\linebreak\linebreak 2021\end{center}\clearpage
+include-before: \begin{center}Ивановский государственный университет\linebreak ИМИТиЕН, 4 курс\linebreak\linebreak 2021\end{center}\clearpage
 # ИМИТиЕН - Институт математики, информационных технологий и естественных наук
 
 toc-title: Содержание
@@ -10,7 +10,6 @@ mainfont: Times New Roman
 monofont: Courier New
 monofontoptions: 'Scale=0.8'
 documentclass: extarticle
-# tab-stop: 2 # not work, set as cli param in build.sh
 fontsize: 14pt
 
 geometry:
