@@ -220,10 +220,10 @@
   },
   {
     "description": "Лабораторное занятие 10.09.2021 11.30, 13.15",
-    "finished": false,
+    "finished": true,
     "full_name": "Самостоятельная работа №1",
     "name": "Scilab 1 - введение и матрицы",
-    "other_text": "Приступаем к выполнению **задания №1 лабораторного практикума** (лабораторные работы №№ 1-2).\n\n**Оценивание**: Подробный отчет оценивается по стандартной десятибалльной шкале за **каждую** из работ (т.е. максимально возможная отметка: 10+10 = 20 баллов), краткий - по зачетной.\n\n**Самостоятельная работа №1.**\n\n**Прикрепленные файлы**\n\n-   [Laboratornaya_Rabota_1.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/0303453df52be3260b725a73d6ae30fa.pdf)\n-   [Laboratornaya_rabota_2.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/52ff01868ac8500301385cff1212d8d2.pdf)\n\n[ссылка](https://uni.ivanovo.ac.ru/exercises/exercise/30973)",
+    "other_text": "Приступаем к выполнению **задания №1 лабораторного практикума** (лабораторные работы №№ 1-2).\n\n**Оценивание**: Подробный отчет оценивается по стандартной десятибалльной шкале за **каждую** из работ (т.е. максимально возможная отметка: 10+10 = 20 баллов), краткий - по зачетной.\n\n**Самостоятельная работа №1.**\n\n**Прикрепленные файлы**\n\n- [x] [Laboratornaya_Rabota_1.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/0303453df52be3260b725a73d6ae30fa.pdf)\n- [x] [Laboratornaya_rabota_2.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/52ff01868ac8500301385cff1212d8d2.pdf)\n\n[ссылка](https://uni.ivanovo.ac.ru/exercises/exercise/30973)",
     "subject": "Компьютерное моделирование",
     "task_id": "20210917161238448607"
   },
