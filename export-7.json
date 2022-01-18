@@ -166,10 +166,10 @@
   },
   {
     "description": "Лабораторное занятие 24.09.2021 11.30, 13.15",
-    "finished": false,
+    "finished": true,
     "full_name": "Самостоятельная работа №3",
     "name": "Scilab 3 - введение в sci-язык и решение оптимизационных задач",
-    "other_text": "_**Оценивание**_: Подробный отчет оценивается по стандартной десятибалльной шкале за **каждую** работу, краткий - по зачетной.\n\n**Прикрепленные файлы**\n\n*Сохранено*\n\n-   [Laboratornaya_rabota_5.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/ac641967ebb1380049f01732daecb946.pdf)\n-   [LR6.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/8e3cd5853f469116112a342bf9cf1a18.pdf)",
+    "other_text": "_**Оценивание**_: Подробный отчет оценивается по стандартной десятибалльной шкале за **каждую** работу, краткий - по зачетной.\n\n**Прикрепленные файлы**\n\n*Сохранено*\n\n- [x] [Laboratornaya_rabota_5.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/ac641967ebb1380049f01732daecb946.pdf)\n- [x] [LR6.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/8e3cd5853f469116112a342bf9cf1a18.pdf)",
     "subject": "Компьютерное моделирование",
     "task_id": "20210930172418462494"
   },
