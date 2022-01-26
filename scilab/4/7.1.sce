@@ -3,7 +3,7 @@ function y1 = f1(x)
 	y1=a0*x^3 + a1*x^2 + a2*x + a3;
 endfunction
 
-x=-10:0.1:10;
+x=-0.7:0.1:0.7;
 plot(x,f1(x)); xgrid;
 
 x0=0; // approximate value

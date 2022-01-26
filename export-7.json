@@ -2,7 +2,7 @@
   {
     "description": "Итоговое индивидуальное задание к экзамену (Кейс)",
     "full_name": "Индивидуальное задание (Кейс)",
-    "name": "БД 19 - ПК 3 - Кейс",
+    "name": "[closed] БД 19 - ПК 3 - Кейс",
     "other_text": "### Тема: ER-моделирование, форвард- и реверс-инжиниринг баз данных.\n\n**Программные средства**: серверы баз данных **MySQL** и **PostgreSQL.**\n\n**Инструменты**: **phpMyAdmin, MySQLWorkBench, pgAdmin, pgModeler.**\n\nСправочные материалы, варианты заданий, описание хода работы и требования к содержанию отчета - _**в прилагаемых файлах.**_\n\n**Прикрепленные файлы**\n\n*Сохранено*\n\n- [ИЗ (ПК3) 2020.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/b1b446e7683bee25e8ae01b187b365b8.pdf)\n- [Теория.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/a3e143b49665934b2a0e506484267a2c.pdf)\n- [24 варианта заданий.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/470f062c963924d948a5b7012e61cba9.pdf)",
     "subject": "Базы данных",
     "finished": false,
@@ -23,7 +23,7 @@
     "description": "Лабораторное занятие 19.11.2021 11.30, 13.15",
     "finished": false,
     "full_name": "Самостоятельная работа №10",
-    "name": "Scilab 10 - фильтр Калмана и синтез импульсных систем",
+    "name": "[closed] Scilab 10 - фильтр Калмана и синтез импульсных систем",
     "other_text": "*пусть будет 11*\n\nПриступаем к выполнению **задания №10 лабораторного практикума** (лабораторные работы №№ 11 - 12 (К. Поляков)). При недостаточном количестве индивидуальных вариантов (или их отсутствии) необходимо подобрать собственный вариант исходных данных.\n\n_**Оценивание**_: Подробный отчет оценивается по стандартной десятибалльной шкале за **каждую** работу, краткий - по зачетной.\n\n**Прикрепленные файлы**\n\n- [lab12sci_theory.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/51da9d71e208f8c404e6c3370c709744.pdf)\n- [lab12sci.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/6f56848cc9ae4caa3f48eae3611359e9.pdf)\n- [lab11sci_theory.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/a4f35ce4b45a1aa48889199007352dbc.pdf)\n- [lab11sci.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/e7b6308ed0b67d8e31de31405c3c1250.pdf)",
     "subject": "Компьютерное моделирование",
     "task_id": "20211125201643377722"
@@ -32,7 +32,7 @@
     "description": "Контрольное задание 19.11.2021 08.00, 09.45",
     "finished": false,
     "full_name": "Промежуточный контроль №2",
-    "name": "БД 18 - ПК 2",
+    "name": "[closed] БД 18 - ПК 2",
     "other_text": "_**Промежуточный контроль №2 (ПК-2).**_\n\n_**Трудоемкость - 8 часов. (4 пары).**_\n\n**Прикрепленные файлы**\n\n- [ПК-2 (задание).pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/d85277126d4b0ef421fdeccbf061d760.pdf)\n- [ПК2-2.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/fa894c89eaf848e4442063b452f4117b.pdf)\n- [ПК2-1.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/263ebf34a4c72f858ecdde76313ceec7.pdf)\n- [ПК1 (1).pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/419dbb9e206f5118056b07f2314e14e5.pdf)",
     "subject": "Базы данных",
     "task_id": "20211125201246318601"
@@ -41,7 +41,7 @@
     "description": "Лабораторное занятие 12.11.2021 11.30, 13.15",
     "finished": false,
     "full_name": "Самостоятельная работа №9",
-    "name": "Scilab 9 - цифровые регуляторы и случайные процессы",
+    "name": "[closed] Scilab 9 - цифровые регуляторы и случайные процессы",
     "other_text": "*странно, номер такой же, как и в предыдущем. пусть будет 10*\n\nПриступаем к выполнению **задания №9 лабораторного практикума** (лабораторные работы №№ 9 - 10 (К. Поляков)). При недостаточном количестве индивидуальных вариантов (или их отсутствии) необходимо подобрать собственный вариант исходных данных.\n\n_**Оценивание**_: Подробный отчет оценивается по стандартной десятибалльной шкале за **каждую** работу, краткий - по зачетной.\n\n**Прикрепленные файлы**\n\n- [lab10sci_theory.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/d752960ff4bb6b9b8a3bd7fe3f96a763.pdf)\n- [lab10sci.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/e64bcffd41dde0335b663da29e2a86d0.pdf)\n- [lab9sci_theory.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/06012501b3066e444431b86c179e6326.pdf)\n- [lab9sci.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/6370fbc7b9b9fc1a748254129d885fda.pdf)",
     "subject": "Компьютерное моделирование",
     "task_id": "20211118153918478889"
@@ -59,7 +59,7 @@
     "description": "Лабораторное занятие 05.11.2021 11.30, 13.15",
     "finished": false,
     "full_name": "Самостоятельная работа №9",
-    "name": "Scilab 9",
+    "name": "[closed] Scilab 9",
     "other_text": "Приступаем к выполнению **задания №9 лабораторного практикума** (лабораторные работы №№ 7 - 8 (К. Поляков)). При недостаточном количестве индивидуальных вариантов (или их отсутствии) необходимо подобрать собственный вариант исходных данных.\n\n_**Оценивание**_: Подробный отчет оценивается по стандартной десятибалльной шкале за **каждую** работу, краткий - по зачетной.\n\n**Прикрепленные файлы**\n\n~~*Сохранено*~~ *капец, файлы битые*\n\n- [lab8sci_theory.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/e8d2cd6a36cb7af8a55c6a682707e648.pdf)\n- [lab8sci.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/13b568720c078c03ba846c18f9ab924a.pdf)\n- [lab7sci_theory.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/e3bba91416d16740a1a63c772ffc58b2.pdf)\n- [lab7sci.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/f4d9763dee73c6d61dd19b01a9f9553b.pdf)",
     "subject": "Компьютерное моделирование",
     "task_id": "20211111203921900165"
@@ -68,7 +68,7 @@
     "description": "Лабораторное занятие 29.10.2021 11.30, 13.15",
     "finished": false,
     "full_name": "Самостоятельная работа №8",
-    "name": "Scilab 8 - дискретизация импульсных систем и аналоговых регуляторов",
+    "name": "[closed] Scilab 8 - дискретизация импульсных систем и аналоговых регуляторов",
     "other_text": "Приступаем к выполнению **задания №8 лабораторного практикума (**лабораторные работы №№ 5 - 6 (К. Поляков)). При недостаточном количестве индивидуальных вариантов (или их отсутствии) необходимо подобрать собственный вариант исходных данных.\n\n_**Оценивание**_: Подробный отчет оценивается по стандартной десятибалльной шкале за **каждую** работу, краткий - по зачетной.\n\n**Прикрепленные файлы**\n\n- [lab6sci_theory.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/93f8483ad1f58e87db1aaa9c3edae475.pdf)\n- [lab6sci.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/2f41b25d87e42ad5fe3d23a09bb0d7aa.pdf)\n- [lab5sci_theory.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/cebbf2700804d295e27d009c5e7440a6.pdf)\n- [lab5sci.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/cbbcbf9af20884865d1309ed4504b738.pdf)",
     "subject": "Компьютерное моделирование",
     "task_id": "20211104214806259057"
@@ -96,7 +96,7 @@
     "description": "Лабораторное занятие 22.10.2021 11.30, 13.15",
     "finished": false,
     "full_name": "Самостоятельная работа №7",
-    "name": "Scilab 7 - сигналы и линейные дискретные системы",
+    "name": "[closed] Scilab 7 - сигналы и линейные дискретные системы",
     "other_text": "Приступаем к выполнению **задания №7 лабораторного практикума** (лабораторные работы №№ 3 - 4 (К. Поляков)). При недостаточном количестве индивидуальных вариантов (или их отсутствии) необходимо подобрать собственный вариант исходных данных.\n\n_**Оценивание**_: Подробный отчет оценивается по стандартной десятибалльной шкале за **каждую** работу, краткий - по зачетной.\n\n**Прикрепленные файлы**\n\n- [lab4sci_theory.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/febb4a8cdc9b8de537399b2bd10cce18.pdf)\n- [lab4sci.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/a3869824935a83f9167ad4c50841f261.pdf)\n- [lab3sci_theory.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/6395b15e8706978d72b880639748ed0e.pdf)\n- [lab3sci.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/5a970c7fd25a9294246fa6371251c6a9.pdf)",
     "subject": "Компьютерное моделирование",
     "task_id": "20211028144140400141"
@@ -114,7 +114,7 @@
     "description": "Лабораторное занятие 15.10.2021 11.30, 13.15",
     "finished": false,
     "full_name": "Самостоятельная работа №6",
-    "name": "Scilab 6 - разомкнутая линейная система и моделирование в Xcos",
+    "name": "[closed] Scilab 6 - разомкнутая линейная система и моделирование в Xcos",
     "other_text": "Приступаем к выполнению **задания №6 лабораторного практикума** (лабораторные работы №№ 1 - 2 (К. Поляков)). При недостаточном количестве индивидуальных вариантов (или их отсутствии) необходимо подобрать собственный вариант исходных данных.\n\n_**Оценивание**_: Подробный отчет оценивается по стандартной десятибалльной шкале за **каждую** работу, краткий - по зачетной.\n\n**Прикрепленные файлы**\n\n*Сохранено*\n\n-   [lab2sci_theory.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/6be5d27bdd7aeb1b4d3d7450ae5a62f0.pdf)\n-   [lab2sci.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/ac66f800b0bbdeb90f11776504f0f680.pdf)\n-   [lab1sci_theory.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/5c0148d1a580ae205e7fd60729482c50.pdf)\n-   [lab1sci.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/8e2d3e652e154d6aea909192bf63c15f.pdf)",
     "subject": "Компьютерное моделирование",
     "task_id": "20211021195330865171"
@@ -132,7 +132,7 @@
     "description": "Лабораторное занятие 08.10.2021 11.30, 13.15",
     "finished": false,
     "full_name": "Самостоятельная работа №5",
-    "name": "Scilab 5 - моделирование устройства и логики в Scicos",
+    "name": "[closed] Scilab 5 - моделирование устройства и логики в Scicos",
     "other_text": "Приступаем к выполнению **задания №5 лабораторного практикума (**лабораторные работы №№ 9 - 10). При недостаточном количестве индивидуальных вариантов (или их отсутствии) необходимо подобрать собственный вариант исходных данных.\n\n_**Отчетность**_: Подробный отчет выслать на почту. Краткое сообщение о его готовности разместить здесь **не позднее 14.10.2021**.\n\n_**Оценивание**_: Подробный отчет оценивается по стандартной десятибалльной шкале за **каждую** работу, краткий - по зачетной.\n\n**Прикрепленные файлы**\n\n- [LR9-10.pdf](https://uni.ivanovo.ac.ru/src/usrs/5ac27cf017a04/exercises/6a481305f50c582972ecd08cc8e2cb19.pdf)",
     "subject": "Компьютерное моделирование",
     "task_id": "20211014184350465616"
